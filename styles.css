@@ -1,0 +1,104 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #00bcd4; 
+    color: white;
+    text-align: center;
+    padding: 1em;
+}
+
+footer {
+    background-color: #00bcd4; 
+    color: white;
+    text-align: center;
+    padding: 1em;
+}
+
+nav {
+    background-color: #f9f9f9;
+    padding: 0.5em;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+img{
+    width: 190px;
+    height: 265px;
+}
+
+nav li {
+    display: inline;
+    margin-right: 10px;
+}
+
+main {
+    padding: 20px;
+}
+
+.login-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.login-form, .signup-form {
+    background-color: #fff; 
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 40%;
+}
+
+.signup-form {
+    margin-left: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 8px;
+}
+
+input, textarea {
+    padding: 8px;
+    margin-bottom: 16px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+}
+
+button {
+    padding: 10px;
+    background-color: #00bcd4; 
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0194a8; 
+}
+
+a {
+    color: #333;
+    text-decoration: none;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}

@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+    <title>Products</title>
+</head>
+<body>
+    <header>
+        <h1>Fashion Shopping</h1>
+        <div class="search-bar">
+            <input type="text" placeholder="Search products...">
+            <button>Search</button>
+        </div>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="login.html">Login/Signup</a></li>
+            <li><a href="products.html">Products</a></li>
+            <li><a href="cart.html">Shopping Cart</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section class="product-category">
+            <h2>Categories</h2>
+            <ul>
+                <li><a href="#men-category" onclick="showCategory('men')">Men</a></li>
+                <li><a href="#women-category" onclick="showCategory('women')">Women</a></li>
+                <li><a href="#kids-category" onclick="showCategory('kids')">Kids</a></li>
+            </ul>
+        </section>
+
+        <section class="product-list" id="men-category">
+            <h2>Men's Fashion</h2>
+            <div class="product">
+                <img src="images/men_product1.jpg" alt="Men Product 1">
+                <h3>Classic Denim</h3>
+                <p>₹899</p>
+                <button>Add to Cart</button>
+            </div>
+
+            <div class="product">
+                <img src="images/men_product2.jpeg" alt="Men Product 2">
+                <h3>Leather Boots</h3>
+                <p>₹1299</p>
+                <button>Add to Cart</button>
+            </div>
+
+            <div class="product">
+                <img src="images/product1.jpeg" alt="Men Product 3">
+                <h3>Printed T-shirt</h3>
+                <p>₹499</p>
+                <button>Add to Cart</button>
+            </div>
+        </section>
+
+        <section class="product-list" id="women-category">
+            <h2>Women's Fashion</h2>
+            <div class="product">
+                <img src="images/women_product1.jpeg" alt="Women Product 1">
+                <h3>Winter Jacket</h3>
+                <p>₹1199</p>
+                <button>Add to Cart</button>
+            </div>
+
+            <div class="product">
+                <img src="images/women_product2.jpeg" alt="Women Product 2">
+                <h3>High Heels</h3>
+                <p>₹2299</p>
+                <button>Add to Cart</button>
+            </div>
+
+            <div class="product">
+                <img src="images/product2.jpg" alt="Women Product 3">
+                <h3>Floral Frock</h3>
+                <p>₹799</p>
+                <button>Add to Cart</button>
+            </div>
+        </section>
+
+        <section class="product-list" id="kids-category">
+            <h2>Kids's Fashion</h2>
+            <div class="product">
+                <img src="images/kids_product1.jpeg" alt="Kids Product 1">
+                <h3>Shirt</h3>
+                <p>₹549</p>
+                <button>Add to Cart</button>
+            </div>
+
+            <div class="product">
+                <img src="images/kids_product2.jpeg" alt="Kids Product 2">
+                <h3>Trousers</h3>
+                <p>₹849</p>
+                <button>Add to Cart</button>
+            </div>
+
+            <div class="product">
+                <img src="images/kids_product3.jpeg" alt="Kids Product 3">
+                <h3>Printed T-shirt</h3>
+                <p>₹499</p>
+                <button>Add to Cart</button>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <a href="index.html">Back to Home</a>
+    </footer>
+</body>
+</html>
